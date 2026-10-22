@@ -1,11 +1,9 @@
-// ============================================================
 //  Sistema de Votação ENADE — Pódio e Confetes
-// ============================================================
 
 const BAUD_RATE = 9600;
 const TEMPO_RODADA = 45;       // 45 segundos
 const QUESTOES_POR_RODADA = 10;
-const TEMPO_ESPERA_PROXIMA = 5; // 3 segundos antes do auto-avanço
+const TEMPO_ESPERA_PROXIMA = 5; // 5 segundos antes do auto-avanço
 
 // ---------- Elementos da página ----------
 const telaInicial = document.getElementById("telaInicial");
@@ -65,9 +63,7 @@ function selecionarQuestoesAleatorias() {
   return copia.slice(0, QUESTOES_POR_RODADA);
 }
 
-// ============================================================
 //  Telas
-// ============================================================
 
 function mostrarTela(nome) {
   telaInicial.hidden = nome !== "inicial";
@@ -92,9 +88,7 @@ function voltarAoInicio() {
   mostrarTela("inicial");
 }
 
-// ============================================================
 //  Status do Arduino
-// ============================================================
 
 function mostrarStatus(texto, tipo) {
   statusEl.textContent = texto;
@@ -114,9 +108,7 @@ function atualizarBotoesConexao(conectado) {
   btnDesconectar.disabled = !conectado;
 }
 
-// ============================================================
 //  Questão e placar
-// ============================================================
 
 function mostrarAviso(texto, tipo) {
   avisoEl.textContent = texto;
@@ -304,9 +296,7 @@ function selecionarAlternativa(participante, opcao) {
   }
 }
 
-// ============================================================
-//  TELA DE PÓDIO E CONFETES
-// ============================================================
+//  TELA DE PÓDIO 
 
 function dispararConfetes() {
   if (typeof confetti === 'function') {
@@ -362,9 +352,7 @@ function avancar() {
   }
 }
 
-// ============================================================
 //  Comunicação serial
-// ============================================================
 
 function processarLinha(linha) {
   const partes = linha.trim().split(",");
@@ -461,9 +449,7 @@ async function tentarReconectar() {
   } catch (erro) {}
 }
 
-// ============================================================
 //  Eventos
-// ============================================================
 
 btnConectar.addEventListener("click", conectar);
 btnDesconectar.addEventListener("click", desconectar);
