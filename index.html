@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Votação ENADE - Conhecimentos Gerais</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Biblioteca de Confetes em JS -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+<main class="container-enade">
+
+  <!-- ==================== TELA 1: conexão e início ==================== -->
+  <section id="telaInicial" class="tela">
+    <div class="enade-header-logo">
+      <span class="badge-enade">ENADE</span>
+      <h1>Simulado de Conhecimentos Gerais</h1>
+    </div>
+
+    <div class="paineis-inicio">
+      <section class="painel">
+        <h2>1. Conexão com o Arduino</h2>
+        <div class="linha-botoes centro">
+          <button id="conectar" class="btn btn-azul" type="button">Conectar ao Arduino</button>
+          <button id="desconectar" class="btn btn-cinza" type="button" disabled>Desconectar</button>
+        </div>
+        <div id="status" class="status desconectado">Arduino desconectado.</div>
+      </section>
+
+      <section class="painel">
+        <h2>2. Iniciar a Competição</h2>
+        <p class="dica">
+          São 100 questões no total divididas em rodadas de 10 (aleatórias). Cada questão possui um cronômetro de <span id="duracaoTexto">45</span> segundos.
+        </p>
+        <button id="iniciarJogo" class="btn btn-grande btn-verde" type="button">
+          Iniciar Competição ENADE
+        </button>
+      </section>
+    </div>
+  </section>
+
+  <!-- ==================== TELA 2: questões ==================== -->
+  <section id="telaQuestoes" class="tela" hidden>
+
+    <!-- Barra Superior ENADE -->
+    <div class="barra-topo-enade">
+      <button id="voltar" class="btn btn-cinza btn-sm" type="button">← Início</button>
+      <div class="enade-info-central">
+        <span class="selo-enade-mini">EXAME NACIONAL DE DESEMPENHO DOS ESTUDANTES</span>
+        <span id="progresso" class="progresso">Questão 1 de 10</span>
+      </div>
+      <div class="controles-topo-direito">
+        <span id="statusMini" class="status-mini desconectado">Arduino desconectado</span>
+        <label class="teste">
+          Teste (Mouse):
+          <select id="participanteTeste">
+            <option value="1">P1</option>
+            <option value="2">P2</option>
+            <option value="3">P3</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <!-- Layout Centralizado de Conteúdo -->
+    <div class="conteudo-central-enade">
+
+      <!-- Placar dos Participantes -->
+      <section class="participantes">
+        <div class="participante" id="participante1">
+          <h3>Participante 1</h3>
+          <div class="pontos"><span class="pontuacao">0</span><small>pts</small></div>
+        </div>
+        <div class="participante" id="participante2">
+          <h3>Participante 2</h3>
+          <div class="pontos"><span class="pontuacao">0</span><small>pts</small></div>
+        </div>
+        <div class="participante" id="participante3">
+          <h3>Participante 3</h3>
+          <div class="pontos"><span class="pontuacao">0</span><small>pts</small></div>
+        </div>
+      </section>
+
+      <!-- Cronômetro e Alertas da Rodada -->
+      <section class="rodada" id="rodada">
+        <div id="aviso" class="aviso">Leia a questão e responda.</div>
+        <div class="cronometro-container">
+          <div id="tempo" class="tempo">45</div>
+          <div class="barra"><div id="barraTempo"></div></div>
+        </div>
+
+        <div class="linha-botoes centro">
+          <button id="iniciarTempo" class="btn btn-grande btn-verde" type="button" hidden>Iniciar Tempo (45s)</button>
+          <button id="proxima" class="btn btn-grande btn-azul" type="button" hidden>Próxima Questão</button>
+        </div>
+      </section>
+
+      <!-- Bloco da Questão ENADE -->
+      <section class="questao">
+        <div class="cabecalho-questao">
+          <h2 id="tituloQuestao">Tema da Questão</h2>
+        </div>
+
+        <p id="enunciado"></p>
+        <p><strong id="pergunta"></strong></p>
+
+        <div id="alternativas">
+          <button class="alternativa azul" data-opcao="0" type="button">
+            <span class="letra">A)</span>
+            <span class="texto"></span>
+            <span class="marcadores"></span>
+          </button>
+
+          <button class="alternativa branco" data-opcao="1" type="button">
+            <span class="letra">B)</span>
+            <span class="texto"></span>
+            <span class="marcadores"></span>
+          </button>
+
+          <button class="alternativa amarelo" data-opcao="2" type="button">
+            <span class="letra">C)</span>
+            <span class="texto"></span>
+            <span class="marcadores"></span>
+          </button>
+
+          <button class="alternativa vermelho" data-opcao="3" type="button">
+            <span class="letra">D)</span>
+            <span class="texto"></span>
+            <span class="marcadores"></span>
+          </button>
+        </div>
+      </section>
+
+    </div>
+  </section>
+
+  <!-- ==================== TELA 3: PÓDIO E RESULTADO FINAL ==================== -->
+  <section id="telaPodio" class="tela" hidden>
+    <div class="podio-container">
+      <div class="podio-header">
+        <span class="badge-enade">ENADE</span>
+        <h1>PÓDIO DOS CAMPEÕES</h1>
+        <p id="subtituloPodio">Resultado Final da Rodada</p>
+      </div>
+
+      <!-- Estrutura Visual em Pódio (2º lugar, 1º lugar, 3º lugar) -->
+      <div class="podio-degraus">
+        
+        <!-- 2º Lugar -->
+        <div class="degrau degrau-2" id="degrau2">
+          <div class="medalha medalha-prata">2º</div>
+          <div class="participante-nome" id="podioNome2">Participante -</div>
+          <div class="podio-pontos"><span id="podioPontos2">0</span> <small>pontos</small></div>
+          <div class="bloco-base base-prata"></div>
+        </div>
+
+        <!-- 1º Lugar -->
+        <div class="degrau degrau-1" id="degrau1">
+          <div class="coroa">👑</div>
+          <div class="medalha medalha-ouro">1º</div>
+          <div class="participante-nome" id="podioNome1">Participante -</div>
+          <div class="podio-pontos"><span id="podioPontos1">0</span> <small>pontos</small></div>
+          <div class="bloco-base base-ouro"></div>
+        </div>
+
+        <!-- 3º Lugar -->
+        <div class="degrau degrau-3" id="degrau3">
+          <div class="medalha medalha-bronze">3º</div>
+          <div class="participante-nome" id="podioNome3">Participante -</div>
+          <div class="podio-pontos"><span id="podioPontos3">0</span> <small>pontos</small></div>
+          <div class="bloco-base base-bronze"></div>
+        </div>
+
+      </div>
+
+      <div class="linha-botoes centro margin-top-podio">
+        <button id="btnVoltarInicioPodio" class="btn btn-grande btn-verde" type="button">
+          Voltar ao Início
+        </button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="questoes.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
