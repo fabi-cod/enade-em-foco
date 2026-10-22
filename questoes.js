@@ -1,7 +1,6 @@
-// ============================================================
 //  Banco de questões — 100 questões (ENADE / Conhecimentos Gerais)
 //  10 por rodada (selecionadas aleatoriamente a cada partida)
-// ============================================================
+
 
 const BANCO_QUESTOES = [
   // ==================== BLOCO 1 (1 a 50) ====================
