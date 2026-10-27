@@ -1,4 +1,4 @@
-//  Sistema de Votação ENADE — Pódio e Confetes
+//  Sistema de Votação ENADE 
 
 const BAUD_RATE = 9600;
 const TEMPO_RODADA = 45;       // 45 segundos
@@ -62,6 +62,7 @@ function selecionarQuestoesAleatorias() {
   }
   return copia.slice(0, QUESTOES_POR_RODADA);
 }
+
 
 //  Telas
 
@@ -192,9 +193,7 @@ function carregarQuestao(indice) {
   mostrarAviso("Questão carregada! O tempo está correndo.");
 }
 
-// ============================================================
 //  Cronômetro e rodada
-// ============================================================
 
 function pararTemporizador() {
   if (temporizador !== null) {
@@ -296,7 +295,7 @@ function selecionarAlternativa(participante, opcao) {
   }
 }
 
-//  TELA DE PÓDIO 
+//  TELA DE PÓDIO
 
 function dispararConfetes() {
   if (typeof confetti === 'function') {

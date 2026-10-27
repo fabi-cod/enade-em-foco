@@ -1,4 +1,4 @@
-//  Banco de questões — 100 questões (ENADE / Conhecimentos Gerais)
+//  Banco de questões — 200 questões (ENADE / Conhecimentos Gerais)
 //  10 por rodada (selecionadas aleatoriamente a cada partida)
 
 
@@ -98,7 +98,7 @@ const BANCO_QUESTOES = [
     alternativas: [
       "Ser descontinuada a cada mudança de gestão governamental para poupar recursos.",
       "Basear-se em evidências técnicas, planejamento participativo e mecanismos de avaliação contínua.",
-      "Atender apenas a grupos de pressão economicamente privileged.",
+      "Atender apenas a grupos de pressão economicamente privilegiados.",
       "Focar exclusivamente na repressão de conflitos sociais sem investigar suas causas."
     ],
     correta: 1
@@ -303,7 +303,7 @@ const BANCO_QUESTOES = [
   },
   {
     tema: "Direitos LGBTQIA+",
-    enunciado: "A garantia de direitos civis à população LGBTQIA+ representa um avanço na consolidação do princípio constitutional da dignidade da pessoa humana e da não discriminação.",
+    enunciado: "A garantia de direitos civis à população LGBTQIA+ representa um avanço na consolidação do princípio constitucional da dignidade da pessoa humana e da não discriminação.",
     pergunta: "Qual medida reforça o respeito à diversidade sexual e de gênero nas instituições?",
     alternativas: [
       "A omissão institucional diante de episódios de homotransfobia.",
@@ -749,7 +749,6 @@ const BANCO_QUESTOES = [
   },
 
   // ==================== BLOCO 2 (51 a 100) ====================
-  // --- Ética, democracia, cidadania e direitos humanos ---
   {
     tema: "Combate à Corrupção",
     enunciado: "A integridade na administração pública exige mecanismos transparentes de controle interno e externo, além de leis rígidas de combate ao conflito de interesses e ao nepotismo.",
@@ -786,8 +785,6 @@ const BANCO_QUESTOES = [
     ],
     correta: 1
   },
-
-  // --- Estado, sociedade e trabalho ---
   {
     tema: "Trabalho Análogo à Escravidão",
     enunciado: "A erradicação do trabalho escravo contemporâneo é compromisso do Estado brasileiro, manifestando-se por servidão por dívida, condições degradantes e jornadas exaustivas.",
@@ -824,8 +821,6 @@ const BANCO_QUESTOES = [
     ],
     correta: 1
   },
-
-  // --- Educação e desenvolvimento humano e social ---
   {
     tema: "Analfa-Letramento",
     enunciado: "O analfabetismo funcional caracteriza a incapacidade de compreender, interpretar e aplicar textos simples e operações matemáticas na vida cotidiana e profissional.",
@@ -862,8 +857,6 @@ const BANCO_QUESTOES = [
     ],
     correta: 1
   },
-
-  // --- Meio ambiente, mudanças climáticas e desafios socioambientais ---
   {
     tema: "Economia Circular",
     enunciado: "O modelo de economia circular opõe-se à lógica linear do 'extrair, produzir, descartar', propondo a reutilização, a reciclagem e a regeneração de sistemas naturais.",
@@ -900,8 +893,6 @@ const BANCO_QUESTOES = [
     ],
     correta: 1
   },
-
-  // --- Desigualdades, opressões e explorações ---
   {
     tema: "Etarismo",
     enunciado: "O etarismo ou idadismo refere-se ao preconceito e à discriminação baseados na idade, afetando especialmente pessoas idosas em ambientes sociais e profissionais.",
@@ -938,8 +929,6 @@ const BANCO_QUESTOES = [
     ],
     correta: 1
   },
-
-  // --- Cultura, arte e comunicação ---
   {
     tema: "Cultura Digital",
     enunciado: "A cultura digital transformou a criação, a circulação e o consumo de conteúdos artísticos, redefinindo o papel das redes sociais e do streaming na sociedade.",
@@ -976,8 +965,6 @@ const BANCO_QUESTOES = [
     ],
     correta: 1
   },
-
-  // --- Ciência, tecnologia e inovação ---
   {
     tema: "Software Livre",
     enunciado: "A filosofia do software livre e do conhecimento aberto defende a liberdade de executar, copiar, distribuir, estudar, mudar e melhorar programas de computador.",
@@ -1014,8 +1001,6 @@ const BANCO_QUESTOES = [
     ],
     correta: 1
   },
-
-  // --- Processos de globalização e política internacional ---
   {
     tema: "Acordo de Paris",
     enunciado: "O Acordo de Paris é um tratado internacional sobre mudanças climáticas que visa limitar o aquecimento global a bem menos de 2°C acima dos níveis pré-industriais.",
@@ -1048,12 +1033,10 @@ const BANCO_QUESTOES = [
       "Estimular a entrada maciça de produtos importados de baixo custo.",
       "Proteger empresas e empregos domésticos em setores estratégicos contra a competição externa agressiva.",
       "Abolir os impostos sobre a exportação de matérias-primas brutas.",
-      "Submeter a economia do país às regras de um único parceiro comercial."
+      "Substituir a economia do país às regras de um único parceiro comercial."
     ],
     correta: 1
   },
-
-  // --- Cidades, habitação e qualidade de vida ---
   {
     tema: "Gentrificação",
     enunciado: "O fenômeno da gentrificação ocorre quando áreas urbanas valorizam-se rapidamente por intervenções imobiliárias, encarecendo o custo de vida local.",
@@ -1078,8 +1061,6 @@ const BANCO_QUESTOES = [
     ],
     correta: 1
   },
-
-  // --- Territórios, sociodiversidade e diversidade cultural ---
   {
     tema: "Povos da Floresta",
     enunciado: "Chico Mendes liderou o movimento dos seringueiros na Amazônia, propondo a criação de Reservas Extrativistas (Resex) como modelo de desenvolvimento sustentável.",
@@ -1093,7 +1074,7 @@ const BANCO_QUESTOES = [
     correta: 1
   },
   {
-    tema: "Comunidades Ranzinzas/Ribeirinhas",
+    tema: "Comunidades Ribeirinhas",
     enunciado: "As populações ribeirinhas da Amazônia possuem um profundo conhecimento adaptativo sobre os ciclos de cheia e seca dos rios, praticando a pesca e a agricultura de várzea.",
     pergunta: "A construção de grandes usinas hidrelétricas em rios amazônicos gera para as comunidades ribeirinhas:",
     alternativas: [
@@ -1104,8 +1085,6 @@ const BANCO_QUESTOES = [
     ],
     correta: 1
   },
-
-  // --- Acessibilidade e inclusão social ---
   {
     tema: "Libras e Cidadania",
     enunciado: "A Língua Brasileira de Sinais (Libras) é reconhecida por lei como meio legal de comunicação e expressão da comunidade surda do Brasil.",
@@ -1130,8 +1109,6 @@ const BANCO_QUESTOES = [
     ],
     correta: 1
   },
-
-  // --- Promoção da saúde e prevenção de doenças ---
   {
     tema: "Redução de Danos",
     enunciado: "A estratégia de Redução de Danos em saúde pública busca minimizar os prejuízos sociais e à saúde associados ao uso de substâncias psicoativas, sem necessariamente exigir a abstinência imediata.",
@@ -1156,8 +1133,6 @@ const BANCO_QUESTOES = [
     ],
     correta: 1
   },
-
-  // --- Questões Complementares Mistas ---
   {
     tema: "Democracia Representativa",
     enunciado: "O sistema proporcional de voto utilizado nas eleições para deputados e vereadores visa garantir a representação de diferentes correntes de opinião na sociedade.",
@@ -1268,7 +1243,7 @@ const BANCO_QUESTOES = [
   },
   {
     tema: "Racismo Ambiental",
-    enunciado: "O termo 'racismo ambiental' designa a injustiça social manifestada pelo fato de comunidades marginalizadas (negras, indígenas, periféricas) sofrerem desproporcionalmente os impactos do lixo e da poluição.",
+    enunciado: "O termo 'racismo ambiental' designa a injustiça social manifestada pelo fato de comunidades marginalizadas sofrerem desproporcionalmente os impactos do lixo e da poluição.",
     pergunta: "Identifica-se uma situação de racismo ambiental na:",
     alternativas: [
       "Instalação de parques ecológicos bem preservados em bairros periféricos de baixa renda.",
@@ -1314,15 +1289,13 @@ const BANCO_QUESTOES = [
     ],
     correta: 1
   },
-
-  // --- Questões Finais de Integração ---
   {
     tema: "Economia do Cuidado",
-    enunciado: "A Economia do Cuidado abrange o trabalho doméstico e de assistência a crianças, idosos e doentes, realizado majoritariamente por mulheres sem remuneração e invisibilizado nas estatísticas oficiais.",
+    enunciado: "A Economia do Cuidado abrange o trabalho doméstico e de assistência a crianças, idosos e doentes, realizado majoritariamente por mulheres sem remuneração e invisibilizado.",
     pergunta: "O reconhecimento e a valorização da economia do cuidado são essenciais para:",
     alternativas: [
       "Manter a sobrecarga de trabalho não pago exclusivamente no âmbito privado das famílias.",
-      "Promover a igualdade de gênero, redistribuir responsabilidades de cuidado e formular políticas públicas de creches e ilhas de apoio a idosos.",
+      "Promover a igualdade de gênero, redistribuir responsabilidades de cuidado e formular políticas públicas de creches e apoio a idosos.",
       "Reduzir o valor das aposentadorias de trabalhadoras do lar.",
       "Privatizar integralmente os serviços de saúde preventiva."
     ],
@@ -1342,11 +1315,11 @@ const BANCO_QUESTOES = [
   },
   {
     tema: "Direito de Acesso à Internet",
-    enunciado: "O Marco Civil da Internet (Lei nº 12.965/2014) estabelece princípios, garantias, direitos e deveres para o uso da internet no Brasil, tratando o acesso como essencial ao exercício da cidadania.",
+    enunciado: "O Marco Civil da Internet estabelece princípios, garantias, direitos e deveres para o uso da internet no Brasil, tratando o acesso como essencial à cidadania.",
     pergunta: "O princípio da Neutralidade da Rede assegura que:",
     alternativas: [
       "Provedores de internet podem bloquear ou desacelerar sites concorrentes de streaming.",
-      "Os pacotes de dados trafegados devem ser tratados de forma isDirecta e igualitária, sem distinção por conteúdo, origem ou destino.",
+      "Os pacotes de dados trafegados devem ser tratados de forma igualitária, sem distinção por conteúdo, origem ou destino.",
       "O governo pode censurar postagens em redes sociais sem ordem judicial prévia.",
       "A navegação na internet deva ser cobrada por página visitada."
     ],
@@ -1366,13 +1339,977 @@ const BANCO_QUESTOES = [
   },
   {
     tema: "Desinformação Científica",
-    enunciado: "Durante emergências sanitárias internacionais, o fenômeno da 'infodemia' (excesso de informações falsas ou imprecisas) dificulta a resposta dos órgãos de saúde pública.",
+    enunciado: "Durante emergências sanitárias internacionais, o fenômeno da 'infodemia' (excesso de informações falsas ou imprecisas) dificulta a resposta dos órgãos de saúde.",
     pergunta: "Para combater uma infodemia de forma ética e eficaz, os governos devem:",
     alternativas: [
       "Processar criminalmente qualquer cidadão que faça perguntas sobre vacinas.",
       "Comunicar-se com transparência, fornecer dados científicos em linguagem acessível e utilizar fontes oficiais e validadas.",
       "Ocultar estatísticas de infectados e óbitos para evitar pânico populacional.",
       "Substituir coletivas médicas por declarações de influenciadores digitais aleatórios."
+    ],
+    correta: 1
+  },
+
+  // ==================== BLOCO 3 (101 a 150) ====================
+  {
+    tema: "Pluralismo Político",
+    enunciado: "O pluralismo político é um dos fundamentos da República Federativa do Brasil, garantindo a coexistência de diferentes ideologias, partidos e correntes de pensamento.",
+    pergunta: "Como o pluralismo político se reflete na garantia da ordem democrática?",
+    alternativas: [
+      "Impondo uma ideologia única aprovada pelo congresso nacional.",
+      "Assegurando a livre organização partidária e o direito de oposição sem perseguições estatais.",
+      "Eliminando debates divergentes durante períodos de crise institucional.",
+      "Subordinando partidos políticos ao controle direto do poder executivo."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Educação Ambiental",
+    enunciado: "A Política Nacional de Educação Ambiental estabelece que a educação ambiental deve ser desenvolvida como uma prática educativa integrada e contínua em todos os níveis.",
+    pergunta: "Qual é a principal finalidade da educação ambiental crítica nas escolas?",
+    alternativas: [
+      "Ensinar apenas técnicas de reciclagem doméstica de plásticos.",
+      "Promover a compreensão integrada dos problemas socioambientais, estimulando a transformação de valores e práticas sociais.",
+      "Substituir o ensino das ciências biológicas por ativismo ecológico.",
+      "Eximir o Estado de responsabilidades na fiscalização de indústrias poluidoras."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Desigualdade de Gênero no Mercado",
+    enunciado: "A disparidade salarial entre homens e mulheres que exercem as mesmas funções persiste como um desafio estrutural no mercado de trabalho contemporâneo.",
+    pergunta: "O princípio constitutional que combate diretamente essa desigualdade é o da:",
+    alternativas: [
+      "Irretroatividade das leis trabalhistas.",
+      "Proibição de diferença de salários, de exercício de funções e de critérios de admissão por motivo de sexo, idade, cor ou estado civil.",
+      "Liberdade de associação profissional e sindical.",
+      "Obrigatoriedade de filiação a conselhos de classe."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Seguridade Social",
+    enunciado: "A Seguridade Social compreende um conjunto integrado de ações de iniciativa dos poderes públicos e da sociedade, destinadas a assegurar os direitos à saúde, à previdência e à assistência social.",
+    pergunta: "Qual característica diferencia a Assistência Social das demais áreas da Seguridade Social?",
+    alternativas: [
+      "Exigir contribuição financeira prévia e contínua do cidadão para concessão de benefícios.",
+      "Ser prestada a quem dela necessitar, independentemente de contribuição à seguridade social.",
+      "Atender unicamente a trabalhadores formais com carteira assinada.",
+      "Ser financiada exclusivamente por taxas alfandegárias de importação."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Patrimônio Genético",
+    enunciado: "O acesso ao patrimônio genético brasileiro e ao conhecimento tradicional associado é regululado visando à repartição justa e equitativa dos benefícios gerados.",
+    pergunta: "Qual é o objetivo principal da legislação sobre proteção ao patrimônio genético?",
+    alternativas: [
+      "Proibir qualquer tipo de pesquisa científica com plantas nativas do país.",
+      "Evitar a biopirataria e garantir que comunidades tradicionais recebam compensações pelo uso de seus saberes ancestrais.",
+      "Conceder exclusividade de patentes a empresas estrangeiras sem restrições.",
+      "Transformar reservas florestais em laboratórios farmacêuticos privados."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Mobilidade Ativa",
+    enunciado: "A mobilidade ativa engloba formas de deslocamento humano baseadas no esforço físico, como caminhar e andar de bicicleta, sendo prioridade em planos de mobilidade urbana sustentável.",
+    pergunta: "Quais são os benefícios diretos do incentivo à mobilidade ativa nas cidades?",
+    alternativas: [
+      "Aumento drástico da emissão de gases poluentes e congestionamentos viários.",
+      "Melhoria da saúde pública, redução de emissões de carbono e humanização do espaço urbano.",
+      "Elevação dos custos de manutenção de vias públicas com grandes obras rodoviárias.",
+      "Isolamento de bairros residenciais em relação aos centros comerciais."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Envelhecimento Populacional",
+    enunciado: "A transição demográfica brasileira aponta para um rápido envelhecimento da população, exigindo adaptações na previdência, saúde e infraestrutura urbana.",
+    pergunta: "Quais são os principais desafios impostos pelo envelhecimento populacional ao sistema de saúde?",
+    alternativas: [
+      "Aumento da demanda por tratamentos de doenças crônicas não transmissíveis e cuidados de longa duração.",
+      "Erradicação completa de patologias infecciosas agudas na infância.",
+      "Redução drástica na necessidade de leitos hospitalares geriátricos.",
+      "Substituição de medicamentos por terapias exclusivamente estéticas."
+    ],
+    correta: 0
+  },
+  {
+    tema: "Patrimônio Material",
+    enunciado: "O patrimônio cultural material é composto por conjuntos de bens móveis e imóveis cuja conservação seja de interesse público.",
+    pergunta: "Dentre as opções abaixo, qual representa um bem cultural material tombado em âmbito nacional?",
+    alternativas: [
+      "O modo de fazer o queijo artesanal de Minas Gerais.",
+      "As ruínas e o conjunto arquitetônico da Cidade de Ouro Preto (MG).",
+      "A festa do Círio de Nazaré em Belém (PA).",
+      "A literatura de cordel nordestina."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Cidadania Digital",
+    enunciado: "A cidadania digital envolve o uso competente e ético da tecnologia, englobando direitos de privacidade, segurança da informação e combate ao cyberbullying.",
+    pergunta: "No Brasil, a proteção jurídica dos dados pessoais dos cidadãos no ambiente digital é garantida principalmente por qual lei?",
+    alternativas: [
+      "Código de Defesa do Consumidor (Lei nº 8.078/1990).",
+      "Lei Geral de Proteção de Dados - LGPD (Lei nº 13.709/2018).",
+      "Marco Civil da Internet (Lei nº 12.965/2014).",
+      "Estatuto da Criança e do Adolescente (Lei nº 8.069/1990)."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Intolerância Religiosa",
+    enunciado: "A liberdade de crença é garantia constitucional inviolável no Brasil, sendo crime inafiançável e imprescritível a prática de racismo e intolerância religiosa.",
+    pergunta: "Como se caracteriza juridicamente a intolerância religiosa?",
+    alternativas: [
+      "Como um simples desentendimento de opiniões filosóficas sem repercussão legal.",
+      "Como condutas discriminatórias, ofensas, depredação de templos ou impedimento de ritos de crenças específicas.",
+      "Como o debate teológico comparado entre diferentes religiões em livros acadêmicos.",
+      "Como a adoção de um Estado laico neutro em cerimônias oficiais."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Segurança Hídrica",
+    enunciado: "A segurança hídrica consiste na garantia de acesso à água em quantidade e qualidade adequadas para a saúde, o desenvolvimento socioeconômico e a sustentabilidade dos ecossistemas.",
+    pergunta: "Qual prática agrícola compromete severamente a segurança hídrica a médio e longo prazo?",
+    alternativas: [
+      "O uso de sistemas de irrigação por gotejamento de alta precisão.",
+      "A supressão de matas ciliares e o uso intensivo de fertilizantes que provocam o assoreamento e a poluição de rios.",
+      "O cultivo rotacionado de culturas orgânicas em pequenas propriedades.",
+      "A captação de água da chuva para uso em lavouras de subsistência."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Trabalho Infantil",
+    enunciado: "A Constituição Federal proíbe o trabalho noturno, perigoso ou insalubre a menores de dezoito anos e qualquer trabalho a menores de dezesseis anos, salvo na condição de aprendiz.",
+    pergunta: "Qual é o principal impacto social negativo gerado pelo trabalho infantil precoce?",
+    alternativas: [
+      "O desenvolvimento acelerado de competências financeiras na infância.",
+      "A evasão escolar, o comprometimento do desenvolvimento físico e psicológico e a perpetuação do ciclo de pobreza.",
+      "A garantia de estabilidade econômica familiar a longo prazo.",
+      "O aperfeiçoamento da formação profissional técnica para o futuro."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Desenvolvimento Regional",
+    enunciado: "As disparidades regionais entre o Sul/Sudeste e as regiões Norte/Nordeste representam um desafio histórico para o planejamento socioeconômico do Estado brasileiro.",
+    pergunta: "Qual instrumento institucional costuma ser utilizado para mitigar assimetrias regionais?",
+    alternativas: [
+      "A centralização absoluta de investimentos públicos apenas nas capitais financeiras.",
+      "Fundos constitucionais de financiamento regional e incentivos fiscais para implantação de indústrias em áreas menos desenvolvidas.",
+      "A extinção de agências de desenvolvimento regional.",
+      "A aplicação de alíquotas de impostos federais mais elevadas sobre estados periféricos."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Gestão de Resíduos Sólidos",
+    enunciado: "A Política Nacional de Resíduos Sólidos (PNRS) estabelece a responsabilidade compartilhada pelo ciclo de vida dos produtos entre fabricantes, importadores, distribuidores, comerciantes e cidadãos.",
+    pergunta: "O que preconiza o conceito de 'logística reversa' instituído pela PNRS?",
+    alternativas: [
+      "O descarte de embalagens usadas diretamente em aterros clandestinos municipais.",
+      "A restituição dos produtos e embalagens após o uso ao setor empresarial para reaproveitamento, reciclagem ou descarte adequado.",
+      "A proibição de importação de mercadorias que utilizem papelão.",
+      "A obrigatoriedade de o consumidor queimar seus resíduos domiciliares."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Violência Contra a Mulher",
+    enunciado: "A Lei Maria da Penha (Lei nº 11.340/2006) criou mecanismos para coibir e prevenir a violência doméstica e familiar contra a mulher no Brasil.",
+    pergunta: "Segundo a referida lei, a violência contra a mulher no âmbito doméstico não se restringe à agressão física, abrangendo também:",
+    alternativas: [
+      "Exclusivamente danos materiais a bens móveis de uso pessoal.",
+      "Violência psicológica, sexual, patrimonial e moral.",
+      "Apenas conflitos verbais ocorridos em vias públicas sem vínculo familiar.",
+      "Desacato a autoridades policiais em operações de trânsito."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Educação Financeira",
+    enunciado: "A Estratégia Nacional de Educação Financeira promove ações para capacitar o cidadão a tomar decisões conscientes sobre o uso de seus recursos financeiros.",
+    pergunta: "Qual é um dos pilares fundamentais abordados pela educação financeira crítica?",
+    alternativas: [
+      "Incentivar o endividamento crônico através do crédito rotativo bancário.",
+      "Compreender o impacto do consumo impulsivo, planejar orçamento doméstico e poupar para imprevistos.",
+      "Investir todas as economias em ativos de alto risco sem planejamento.",
+      "Desconsiderar taxas de juros ao contrair empréstimos de longo prazo."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Demografia e Pirâmide Etária",
+    enunciado: "A base larga de uma pirâmide etária em formato tradicional indica altas taxas de natalidade e mortalidade, enquanto o estreitamento da base revela transição demográfica.",
+    pergunta: "O que o estreitamento da base e o alargamento do topo de uma pirâmide etária sinalizam a médio prazo?",
+    alternativas: [
+      "Aumento explosivo da população em idade escolar infantil.",
+      "Redução da taxa de fecundidade e aumento da expectativa de vida (envelhecimento populacional).",
+      "Crescimento imediato da força de trabalho industrial jovem.",
+      "Estagnação total no desenvolvimento socioeconômico da nação."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Desigualdade Educacional",
+    enunciado: "As desigualdades no acesso a tecnologias de ensino, infraestrutura escolar adequada e docentes qualificados afetam o desempenho de estudantes da rede pública frente à privada.",
+    pergunta: "O princípio constitucional que busca corrigir essa distorção e garantir igualdade de condições para o acesso e a permanência na escola é o da:",
+    alternativas: [
+      "Gratuidade do ensino público em estabelecimentos oficiais.",
+      "Igualdade de condições para o acesso e permanência na escola.",
+      "Validação automática de diplomas estrangeiros.",
+      "Liberdade de aprender, ensinar, pesquisar e divulgar o pensamento."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Transparência Pública",
+    enunciado: "A Lei de Acesso à Informação (LAI) regulamenta o direito constitucional de acesso aos informações públicas geradas pelos órgãos dos poderes da União, Estados e Municípios.",
+    pergunta: "Qual é a regra geral estabelecida pela LAI quanto à publicidade dos atos administrativos?",
+    alternativas: [
+      "O sigilo absoluto de todas as decisões tomadas por gestores públicos.",
+      "O sigilo temporário de trinta anos para qualquer documento de compras.",
+      "O sigilo como exceção e a publicidade como regra, garantindo transparência ativa e passiva.",
+      "A divulgação restrita de dados financeiros apenas a parlamentares."
+    ],
+    correta: 2
+  },
+  {
+    tema: "Participação Comunitária",
+    enunciado: "Os conselhos gestores de políticas públicas (saúde, educação, assistência social) são instâncias de participação direta da sociedade na administração do Estado.",
+    pergunta: "Qual é a principal atribuição deliberativa e fiscalizadora desses conselhos?",
+    alternativas: [
+      "Substituir o poder legislativo na aprovação de emendas constitucionais.",
+      "Acompanhar, avaliar e fiscalizar a execução das políticas públicas e a gestão dos recursos financeiros do setor.",
+      "Julgar crimes penais cometidos por prefeitos e governadores.",
+      "Gerenciar diretamente empresas privadas de capital aberto."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Energias Renováveis",
+    enunciado: "A diversificação da matriz energética com fontes renováveis como solar fotovoltaica e eólica é estratégica para a segurança energética e mitigação climática.",
+    pergunta: "Qual é um dos principais desafios técnicos associados à expansão de fontes solares e eólicas na rede elétrica?",
+    alternativas: [
+      "A emissão massiva de gases de efeito estufa durante sua operação diária.",
+      "A intermitência e a variabilidade na geração de energia dependentes de condições climáticas.",
+      "A impossibilidade técnica de integração com redes inteligentes de distribuição.",
+      "O esgotamento rápido dos recursos minerais necessários para sua fabricação."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Saúde Coletiva e Prevenção",
+    enunciado: "A atenção primária à saúde, estruturada no Brasil através das Estratégias de Saúde da Família (ESF), atua na prevenção de agravos e promoção da qualidade de vida.",
+    pergunta: "Qual é o foco principal da atuação das equipes de Saúde da Família em seus territórios?",
+    alternativas: [
+      "Realizar cirurgias cardíacas de alta complexidade em postos de bairro.",
+      "Conhecer a realidade sanitária das famílias, atuar na prevenção de doenças e realizar acompanhamento contínuo na comunidade.",
+      "Substituir os hospitais de emergência em casos de traumas ortopédicos graves.",
+      "Distribuir medicamentos controlados sem receita médica em praças públicas."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Direitos dos Povos Indígenas",
+    enunciado: "A Constituição Federal de 1988 reconheceu aos índios sua organização social, costumes, línguas, crenças e os direitos originários sobre as terras que tradicionalmente ocupam.",
+    pergunta: "O que significam juridicamente os 'direitos originários' sobre as terras tradicionais?",
+    alternativas: [
+      "Que os direitos decorrem de concessão graciosa do governo federal atual.",
+      "Que são direitos anteriores à própria formação do Estado brasileiro, fundamentados na ocupação tradicional histórica.",
+      "Que as terras podem ser vendidas livremente a latifundiários estrangeiros.",
+      "Que os povos indígenas possuem jurisdição militar autônoma independente."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Segurança Digital e Privacidade",
+    enunciado: "O vazamento de dados confidenciais e ataques cibernéticos a instituições públicas e privadas representam ameaças crescentes à segurança nacional e individual.",
+    pergunta: "A adoção da autenticação em duas etapas (2FA) em sistemas digitais visa principalmente:",
+    alternativas: [
+      "Acelerar a velocidade de navegação na internet móvel.",
+      "Adicionar uma camada extra de segurança além da senha, dificultando acessos não autorizados.",
+      "Eliminar a necessidade de senhas fortes em cadastros corporativos.",
+      "Reduzir custos de armazenamento de dados em servidores em nuvem."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Cidadania Planetária",
+    enunciado: "Os Objetivos de Desenvolvimento Sustentável (ODS) da ONU compõem uma agenda global para erradicar a pobreza, proteger o planeta e garantir a paz e a prosperidade.",
+    pergunta: "Quantos objetivos principais compõem a agenda global dos ODS para o horizonte de desenvolvimento sustentável?",
+    alternativas: [
+      "5 objetivos focados exclusivamente no crescimento do PIB.",
+      "10 objetivos voltados apenas para energias fósseis.",
+      "17 objetivos integrados que abordam desafios globais complexos.",
+      "25 objetivos de integração militar entre os continentes."
+    ],
+    correta: 2
+  },
+  {
+    tema: "Patrimônio Imaterial",
+    enunciado: "O Registro de Bens Culturais de Natureza Imaterial protege conhecimentos, práticas, expressões e rituais transmitidos de geração em geração.",
+    pergunta: "Qual é o órgão federal brasileiro responsável pelo registro e salvaguarda do patrimônio histórico, artístico e nacional?",
+    alternativas: [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE).",
+      "Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN).",
+      "Empresa Brasileira de Pesquisa Agropecuária (Embrapa).",
+      "Fundação Biblioteca Nacional (FBN)."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Segregação Socioespacial",
+    enunciado: "A expansão urbana desordenada sem infraestrutura acentua a fragmentação das cidades, separando áreas dotadas de serviços daqueles desprovidos de saneamento e transporte.",
+    pergunta: "Qual instrumento urbanístico previsto no Estatuto da Cidade visa combater a retenção especulativa de imóveis urbanos desocupados?",
+    alternativas: [
+      "A concessão de isenção total de IPTU a grandes loteadores.",
+      "O parcelamento, edificação ou utilização compulsórios (PEUC), IPTU progressivo no tempo e desapropriação-sanção.",
+      "A privatização completa do sistema viário municipal.",
+      "A remoção forçada de bairros centrais consolidados para áreas rurais."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Educação Midiática",
+    enunciado: "A educação midiática capacita os cidadãos a analisar criticamente mensagens veiculadas por mídias tradicionais e digitais, identificando vieses e intenções.",
+    pergunta: "Qual habilidade é central no desenvolvimento da literacia midiática?",
+    alternativas: [
+      "Acreditar em qualquer manchete sensacionalista compartilhada por autoridades.",
+      "Verificar a autoria, cruzar dados com fontes primárias e questionar o contexto de publicações virais.",
+      "Abster-se de consumir notícias veiculadas em portais jornalísticos profissionais.",
+      "Compartilhar conteúdos sem leitura prévia para testar engajamento."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Economia Criativa",
+    enunciado: "A economia criativa baseia-se no capital intelectual, na cultura, na criatividade e na inovação como motores de geração de valor econômico e social.",
+    pergunta: "Quais setores integram tipicamente o ecossistema da economia criativa?",
+    alternativas: [
+      "Extrativismo mineral de ferro e exploração de petróleo bruto.",
+      "Audiovisual, design, software, moda, arquitetura, artes cênicas e música.",
+      "Monocultura extensiva de soja e pecuária intensiva de corte.",
+      "Fabricação de fertilizantes químicos inorgânicos industriais."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Responsabilidade Social Empresarial",
+    enunciado: "A responsabilidade social empresarial (RSE) vai além do cumprimento das leis trabalhistas e ambientais, englobando compromissos éticos com o desenvolvimento da comunidade.",
+    pergunta: "Como se manifesta uma gestão empresarial genuinamente socialmente responsável?",
+    alternativas: [
+      "Pela ocultação de impactos socioambientais negativos gerados por seus processos produtivos.",
+      "Pela transparência nas relações com stakeholders, investimento em projetos sociais locais e ética corporativa.",
+      "Pela priorização exclusiva do lucro acionário trimestral a qualquer custo moral.",
+      "Pela recusa em participar de auditorias externas de conformidade."
+    ],
+    correta: 1
+  },
+
+  // ==================== BLOCO 4 (151 a 200) ====================
+  {
+    tema: "Democracia e Participação",
+    enunciado: "O plebiscito e o referendo são instrumentos de democracia direta previstos na Constituição Federal brasileira de 1988 para consulta ao eleitorado sobre matérias de relevante interesse nacional.",
+    pergunta: "Qual é a diferença fundamental entre o plebiscito e o referendo?",
+    alternativas: [
+      "O plebiscito é convocado após a aprovação do ato legislativo, enquanto o referendo ocorre antes.",
+      "O plebiscito é uma consulta prévia ao ato legislativo/administrativo, enquanto o referendo é convocado após a lei ter sido aprovada para sua ratificação.",
+      "O plebiscito aplica-se apenas a assuntos estaduais, enquanto o referendo é exclusivo do poder executivo federal.",
+      "O plebiscito é deliberativo obrigatório e o referendo tem apenas caráter consultivo sem força legal."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Transição Justa e Emprego",
+    enunciado: "A descarbonização da economia exige o fechamento gradual de indústrias highly poluidoras, o que pode gerar impacto social negativo sobre regiões dependentes dessas atividades.",
+    pergunta: "Para assegurar uma 'transição justa' no mercado de trabalho, as políticas públicas devem:",
+    alternativas: [
+      "Manter o funcionamento indeterminado de indústrias poluentes sem restrições ambientais.",
+      "Garantir programas de requalificação profissional, proteção social e fomento a novas cadeias produtivas limpas nas regiões afetadas.",
+      "Transferir o custo de encerramento das atividades inteiramente para os trabalhadores demitidos.",
+      "Substituir trabalhadores locais por mão de obra estrangeira especializada sem suporte comunitário."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Acessibilidade Comunicacional",
+    enunciado: "A acessibilidade comunicacional garante que mensagens, conteúdos digitais e sinalizações estejam disponíveis em formatos compreensíveis a pessoas com diferentes deficiências sensoriais.",
+    pergunta: "Qual recurso técnico assegura a acessibilidade comunicacional para pessoas com deficiência auditiva em eventos ao vivo ou transmissões?",
+    alternativas: [
+      "O aumento do contraste das luzes do palco principal.",
+      "A presença de intérpretes de Libras (Língua Brasileira de Sinais) e a disponibilização de legendas em tempo real (LSTV/Closed Caption).",
+      "A utilização de impressos em Braille distribuídos na entrada do evento.",
+      "A instalação de rampas de acesso com inclinação adequada segundo normas técnicas."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Economia do Conhecimento",
+    enunciado: "A transição da economia industrial para a economia do conhecimento coloca o capital humano, a informação, a capacidade de inovação e o aprendizado contínuo no centro do valor econômico.",
+    pergunta: "Em um cenário dominado pela economia do conhecimento, o investimento prioritário dos países deve focar em:",
+    alternativas: [
+      "Subvenção maciça a atividades extrativistas primárias de baixo valor agregado.",
+      "Educação de qualidade, sistemas de pesquisa e desenvolvimento (P&D), infraestrutura digital e proteção à propriedade intelectual.",
+      "Aumento de barreiras alfandegárias para proibir a circulação de softwares internacionais.",
+      "Redução dos salários de profissionais das áreas de tecnologia e ciências humanas."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Segurança Alimentar e Nutricional",
+    enunciado: "O conceito de Segurança Alimentar e Nutricional engloba não apenas a quantidade suficiente de comida, mas também a qualidade biológica, sanitária e o respeito à diversidade cultural alimentícia.",
+    pergunta: "Qual diretriz promove a segurança alimentar e sustentável na merenda escolar pública?",
+    alternativas: [
+      "Priorizar a aquisição de alimentos ultraprocessados de grande escala comercial.",
+      "Comprar gêneros alimentícios diretamente da agricultura familiar e de agroindústrias comunitárias locais.",
+      "Substituir refeições frescas por suplementos vitamínicos industrializados padronizados.",
+      "Importar produtos enlatados sem certificação de órgãos de vigilância sanitária."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Direitos Culturais",
+    enunciado: "Os direitos culturais integram os direitos humanos de segunda geração, abrangendo a liberdade de criação artística, o acesso aos bens culturais e a salvaguarda da memória coletiva.",
+    pergunta: "O mecanismo de fomento à cultura mediante leis de incentivo fiscal caracteriza-se por:",
+    alternativas: [
+      "Censura prévia do Estado sobre projetos com propostas estéticas inovadoras ou críticas.",
+      "Permitir que empresas e cidadãos destinem parte de seus impostos devidos ao financiamento de projetos culturais aprovados.",
+      "Aprovar exclusivamente projetos artísticos de corporações multinacionais de entretenimento.",
+      "Proibir a cobrança de ingressos em qualquer evento cultural público ou privado."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Mudanças Climáticas e Saúde",
+    enunciado: "O aumento das temperaturas globais e a alteração dos regimes de chuvas expandem as áreas geográficas de ocorrência de vetores de doenças tropicais, como a dengue, zika e chikungunya.",
+    pergunta: "Uma ação preventiva de saúde pública para mitigar esse impacto socioambiental consiste em:",
+    alternativas: [
+      "Interromper o monitoramento de áreas de risco durante épocas de seca prolongada.",
+      "Fortalecer a vigilância em saúde ambiental, investir em saneamento urbano e promover ações comunitárias de eliminação de criadouros.",
+      "Aplicar inseticidas químicos de forma indiscriminada sem avaliação de impacto ecossistêmico.",
+      "Restringir o acesso da população às unidades básicas de saúde durante surtos."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Violência Institucional",
+    enunciado: "A violência institucional manifesta-se no atendimento prestado por órgãos públicos ou agentes do Estado quando violam direitos, reproduzem preconceitos ou renegam serviços essenciais.",
+    pergunta: "Identifica-se um episódio de violência institucional na:",
+    alternativas: [
+      "Oferta de atendimento prioritário a idosos e gestantes conforme previsto em lei.",
+      "Recusa injustificada de acolhimento ou revitimização de mulheres em situação de violência ao buscarem serviços de proteção.",
+      "Realização de triagem médica em pronto-atendimento com base na gravidade clínica dos sintomas.",
+      "Exigência de apresentação de documento oficial com foto em repartições administrativas."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Justiça Restaurativa",
+    enunciado: "Diferente da justiça retributiva focada estritamente na punição e aplicação da pena, a justiça restaurativa prioriza a reparação dos danos, o diálogo entre as partes e a restauração de laços sociais.",
+    pergunta: "O processo de mediação em justiça restaurativa busca centralmente:",
+    alternativas: [
+      "Isolar o infrator do convívio comunitário por prazos indeterminados sem escuta das vítimas.",
+      "Promover encontros facilitados em que vítima, ofensor e comunidade participem na construção de soluções reparadoras.",
+      "Aplicar multas financeiras revertidas exclusivamente para o orçamento de segurança pública.",
+      "Transferir o julgamento de conflitos comunitários para tribunais militares."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Inclusão Escolar de Surdos",
+    enunciado: "A Convenção sobre os Direitos das Pessoas com Deficiência e a LDB garantem a oferta de educação bilíngue para surdos, em que a Libras é a primeira língua e o português escrito é a segunda.",
+    pergunta: "Uma escola inclusiva preparada para receber estudantes surdos deve assegurar:",
+    alternativas: [
+      "A obrigatoriedade de implante coclear como condição de matrícula.",
+      "Professores de salas regulares e tradutores/intérpretes de Libras capacitados, além de materiais didáticos visuais.",
+      "A proibição da utilização de sinais em momentos de recreio e atividades esportivas.",
+      "A dispensa automática do ensino de língua portuguesa escrita para todos os alunos surdos."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Gentrificação e Moradia",
+    enunciado: "A especulação imobiliária em áreas centrais de grandes cidades frequentemente provoca o aumento exagerado dos custos do solo urbano e dos impostos locais.",
+    pergunta: "A consequência direta desse movimento especulativo para trabalhadores de baixa renda é:",
+    alternativas: [
+      "A aquisição facilitada de moradias próprias e estruturadas no centro histórico.",
+      "O deslocamento forçado para áreas periféricas desprovidas de infraestrutura e a ampliação das distâncias casa-trabalho.",
+      "A redução imediata no valor das tarifas do transporte público municipal.",
+      "A garantia de regularização fundiária de loteamentos informais consolidados."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Direitos dos Idosos",
+    enunciado: "O Estatuto da Pessoa Idosa (Lei nº 10.741/2003) assegura prioridade absoluta na efetivação dos direitos à vida, saúde, alimentação, cultura e convivência comunitária.",
+    pergunta: "Em relação ao direito ao transporte coletivo urbano, o Estatuto da Pessoa Idosa garante:",
+    alternativas: [
+      "A gratuidade dos transportes coletivos públicos urbanos e semiurbanos aos maiores de 65 anos.",
+      "A cobrança de meia-entrada estrita apenas durante horários fora do pico comercial.",
+      "A obrigatoriedade de compra prévia de bilhetes com três dias de antecedência.",
+      "A reserva de vagas exclusivas mediante pagamento de taxa de adesão anual."
+    ],
+    correta: 0
+  },
+  {
+    tema: "Cibersegurança e Sociedade",
+    enunciado: "A ocorrência de engenharia social (como ataques de phishing) explora a confiança, o medo ou a falta de informação do usuário para roubar senhas e dados bancários.",
+    pergunta: "Qual atitude individual reduz significativamente o risco de ser vítima de um golpe de phishing?",
+    alternativas: [
+      "Clicar em links recebidos por mensagens não solicitadas sem checar o remetente oficial.",
+      "Verificar a autenticidade do endereço eletrônico (URL), não fornecer senhas em sites não seguros e utilizar canais oficiais.",
+      "Utilizar a mesma senha alfanumérica simples em todos os cadastros pessoais.",
+      "Desativar atualizações de segurança dos sistemas operacionais dos dispositivos."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Proteção aos Povos Isolados",
+    enunciado: "O Estado brasileiro adota a política de 'não contato' em relação a povos indígenas isolados, intervindo apenas em situações extraordinárias de ameaça à sua sobrevivência.",
+    pergunta: "A política de não contato fundamenta-se na necessidade de:",
+    alternativas: [
+      "Forçar a integração dessas populações ao mercado produtivo agrícola regional.",
+      "Respeitar a autodeterminação dos povos e protegê-los contra doenças infectocontagiosas para as quais não possuem imunidade.",
+      "Facilitar o loteamento de suas terras para exploração mineral privada.",
+      "Permitir que missões catequéticas modifiquem suas tradições sem autorização judicial."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Guerra Cibernética e Geopolítica",
+    enunciado: "Os conflitos internacionais contemporâneos extrapolam o campo físico, incorporando ataques a redes de energia, sistemas bancários e infraestruturas críticas dos Estados Nacionais.",
+    pergunta: "A este conjunto de ações bélicas no ambiente digital dá-se o nome de:",
+    alternativas: [
+      "Guerra fiscal intra-regional.",
+      "Guerra cibernética (cyberwarfare).",
+      "Guerra comercial protecionista.",
+      "Soberania biotecnológica."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Vulnerabilidade e Desastres",
+    enunciado: "Mapeamentos de risco demonstram que desastres decorrentes de deslizamentos de terra em morros e encostas atingem predominantemente populações de baixa renda.",
+    pergunta: "Esse padrão de vitimização evidencia um problema estrutural de:",
+    alternativas: [
+      "Inexistência de técnicas de engenharia civil aplicáveis no país.",
+      "Injustiça ambiental e falta de planejamento habitacional preventivo que force a ocupação de áreas de risco.",
+      "Escolha individual deliberada dos moradores por locais sem saneamento.",
+      "Excesso de investimento em moradias populares centrais."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Inovação Aberta",
+    enunciado: "A abordagem de inovação aberta (open innovation) incentiva empresas e governos a colaborar com universidades, startups e cidadãos para a solução de problemas complexos.",
+    pergunta: "Uma vantagem competitiva da aplicação da inovação aberta no setor público é:",
+    alternativas: [
+      "O encerramento de parcerias técnicas com instituições de pesquisa científica.",
+      "A aceleração no desenvolvimento de soluções eficientes e o barateamento de custos mediante inteligência coletiva.",
+      "O sigilo compulsório sobre todas as etapas de criação de softwares governamentais.",
+      "A centralização das pesquisas em um único departamento burocrático fechado."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Políticas de Ações Afirmativas",
+    enunciado: "A Lei de Cotas (Lei nº 12.711/2012) reserva vagas em universidades federais para estudantes egressos de escolas públicas, pretos, pardos, indígenas e pessoas com deficiência.",
+    pergunta: "O fundamento constitucional que valida a aplicação das ações afirmativas é o princípio da:",
+    alternativas: [
+      "Igualdade formal absoluta (todos tratados identicamente independente das desigualdades reais).",
+      "Igualdade material/substantiva (tratar desigualmente os desiguais na medida de suas desigualdades para promover equidade).",
+      "Soberania dos conselhos universitários privados.",
+      "Livre concorrência de mercado."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Agroecologia",
+    enunciado: "A agroecologia propõe um modelo de produção agrícola que integra princípios ecológicos, sociais e culturais ao cultivo de alimentos, rejeitando o uso de agrotóxicos sintéticos.",
+    pergunta: "Qual benefício a agroecologia proporciona em comparação ao agronegócio de monocultura intensiva?",
+    alternativas: [
+      "A contaminação do lençol freático por defensivos de alta persistência.",
+      "A preservação do solo, a conservação da biodiversidade e a oferta de alimentos saudáveis com justiça social.",
+      "O aumento do desmatamento de florestas tropicais primárias.",
+      "A concentração de terras nas mãos de poucos investidores internacionais."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Redução da Maioridade Penal",
+    enunciado: "O debate sobre a redução da maioridade penal envolve argumentos jurídicos, sociológicos e éticos sobre a eficácia de medidas punitivas frente à socioeducação de adolescentes.",
+    pergunta: "A Doutrina da Proteção Integral adotada pela Constituição e pelo ECA estabelece para adolescentes autor de ato infracional:",
+    alternativas: [
+      "A impunidade absoluta sem qualquer responsabilização estatal.",
+      "Medidas socioeducativas (advertência, prestação de serviços, internação) focadas na reeducação e reinserção social.",
+      "A aplicação imediata das mesmas penas de prisão do Código Penal para adultos.",
+      "A perda compulsória dos direitos de cidadania até os trinta anos."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Transição Demográfica e Economia",
+    enunciado: "O conceito de 'bônus demográfico' ocorre quando a proporção de pessoas em idade ativa (força de trabalho) é maior do que a proporção de dependentes (crianças e idosos).",
+    pergunta: "Para aproveitar o período de bônus demográfico antes de seu esgotamento, o país deve:",
+    alternativas: [
+      "Reduzir os gastos em educação básica para equilibrar o orçamento público curto.",
+      "Investir massivamente na qualificação profissional dos jovens e na criação de postos de trabalho de alta produtividade.",
+      "Estimular a emigração do capital humano jovem para países desenvolvidos.",
+      "Desincentivar a participação feminina no mercado de trabalho formal."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Direitos dos Povos Quilombolas",
+    enunciado: "O Supremo Tribunal Federal (STF) reafirmou a constitucionalidade do Decreto nº 4.887/2003, que regulamenta o procedimento de identificação e titulação das terras quilombolas.",
+    pergunta: "O critério utilizado para a identificação e delimitação das comunidades quilombolas é o da:",
+    alternativas: [
+      "Avaliação genética individual feita por peritos do Estado.",
+      "Autodefinição/autoidentificação da própria comunidade aliada a estudos históricos e antropológicos.",
+      "Comprovação de renda média familiar mínima de dois salários mínimos.",
+      "Aprovação prévia por empresários rurais locais."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Consumo Consciente",
+    enunciado: "O consumo consciente envolve a escolha de produtos e serviços considerando seus impactos ambientais, sociais e econômicos ao longo de todo o ciclo de vida.",
+    pergunta: "Uma atitude alinhada ao consumo consciente no cotidiano é:",
+    alternativas: [
+      "Substituir aparelhos eletrônicos funcionais a cada lançamento publicitário.",
+      "Avaliar a real necessidade da compra, priorizar produtos locais, recicláveis e de empresas com responsabilidade social.",
+      "Descartar resíduos orgânicos misturados ao lixo reciclável sem separação.",
+      "Comprar produtos descartáveis de uso único para evitar gastos com água."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Livre Manifestação e Protesto",
+    enunciado: "O direito de reunião e protesto é garantia fundamental assegurada na Constituição brasileira, exercido em locais abertos ao público.",
+    pergunta: "A exigência constitucional para a realização de reuniões pacíficas em locais públicos é de que:",
+    alternativas: [
+      "Ocorra autorização prévia discricionária expedida por órgãos policiais locais.",
+      "Seja pacífica, sem armas, não frustre outra reunião convocada para o mesmo local e haja prévio aviso à autoridade competente.",
+      "Seja restrita aos fins de semana e feriados nacionais.",
+      "Ocorra pagamento de taxa de ocupação do solo urbano."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Inclusão Digital no Meio Rural",
+    enunciado: "O hiato digital entre áreas urbanas e rurais dificulta o acesso de agricultores familiares a tecnologias de precisão, serviços bancários e políticas de comercialização.",
+    pergunta: "Qual política pública reduz o abismo digital nas áreas rurais?",
+    alternativas: [
+      "Expandir a infraestrutura de telecomunicações, levar sinal de internet banda larga e capacitar a população do campo no uso de ferramentas digitais.",
+      "Proibir a instalação de torres de telefonia celular em áreas agrícolas.",
+      "Restringir o acesso a plataformas governamentais a moradores das capitais.",
+      "Substituir todas as escolas rurais por cursos por correspondência impressa."
+    ],
+    correta: 0
+  },
+  {
+    tema: "Direitos dos Refugiados",
+    enunciado: "A Lei de Refúgio do Brasil (Lei nº 9.474/1997) é considerada uma das mais avançadas do mundo por adotar a definição ampliada da Declaração de Cartagena.",
+    pergunta: "A definição ampliada de refúgio reconhece como refugiado o indivíduo que foi forçado a deixar seu país devido a:",
+    alternativas: [
+      "Interesse exclusivo de viagem de turismo internacional.",
+      "Grave e generalizada violação dos direitos humanos em sua nação de origem.",
+      "Busca por salários em moedas estrangeiras mais valorizadas sem conflito interno.",
+      "Fuga do cumprimento de obrigações fiscais ou sanções trabalhistas comuns."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Poluição Atmosférica",
+    enunciado: "A poluição do ar nas metrópoles é responsável pelo agravamento de cardiopatias, crises asmáticas e mortes precoces, gerando custos elevados para os sistemas de saúde.",
+    pergunta: "Uma medida estrutural de planejamento urbano que atua na raiz da poluição do ar é:",
+    alternativas: [
+      "A substituição de frota de ônibus a diesel por veículos elétricos e o fortalecimento do transporte sobre trilhos.",
+      "A liberação da venda de combustíveis fósseis adulterados para baixar custos de transporte.",
+      "O incentivo à circulação livre de caminhões pesados nas áreas centrais em qualquer horário.",
+      "A poda drástica e eliminação das árvores ao longo de avenidas expressas."
+    ],
+    correta: 0
+  },
+  {
+    tema: "Saúde Sexual e Reprodutiva",
+    enunciado: "Os direitos sexuais e reprodutivos garantem que todas as pessoas possam tomar decisões sobre sua sexualidade e reprodução de forma livre, responsável e informada.",
+    pergunta: "A oferta de métodos contraceptivos gratuitos pelo SUS fundamenta-se no princípio de que o planejamento familiar é:",
+    alternativas: [
+      "Uma imposição do Estado para controlar o crescimento demográfico de famílias de baixa renda.",
+      "Um direito de livre escolha do casal ou do indivíduo, vedada qualquer forma coercitiva por parte de instituições públicas ou privadas.",
+      "Um benefício condicionado ao pagamento de contribuição previdenciária prévia.",
+      "Um serviço restrito a maiores de trinta anos com dois filhos vivos."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Indústria 4.0 e Emprego",
+    enunciado: "A Indústria 4.0 integra inteligência artificial, internet das coisas (IoT), robótica avançada e computação em nuvem nos processos produtivos das fábricas.",
+    pergunta: "O impacto da quarta revolução industrial no mercado de trabalho exige dos trabalhadores de manufatura:",
+    alternativas: [
+      "Apenas força física para operação contínua de maquinário mecânico simples.",
+      "Capacidade de lidar com dados digitais, resolução de problemas complexos e programação de sistemas automatizados.",
+      "O abandono do ensino formal em favor de treinamento estritamente braçal.",
+      "A aceitação de jornadas extensas de trabalho repetitivo em linhas de montagem manuais."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Políticas Anticorrupção",
+    enunciado: "A Lei da Ficha Limpa (Lei Complementar nº 135/2010) alterou a Lei de Inelegibilidades para impedir a candidatura de cidadãos condenados por órgãos colegiados.",
+    pergunta: "A Lei da Ficha Limpa visou proteger no processo eleitoral a:",
+    alternativas: [
+      "Imunidade absoluta de parlamentares durante o mandato exercido.",
+      "Proidade administrativa, a moralidade para o exercício do mandato e a normalidade das eleições.",
+      "Reserva de candidaturas para representantes de elites financeiras.",
+      "Centralização de decisões eleitorais nas mãos de um único partido político."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Manejo Florestal Sustentável",
+    enunciado: "O manejo florestal sustentável combina a extração seletiva de madeira com a conservação da cobertura vegetal e da biodiversidade local a longo prazo.",
+    pergunta: "Em oposição ao desmatamento raso, o manejo florestal sustentável caracteriza-se por:",
+    alternativas: [
+      "Retirar todas as árvores de uma determinada área de uma só vez para queimada posterior.",
+      "Planejar o corte seletivo de árvores adultas, respeitando o tempo de regeneração natural da floresta e mantendo sua estrutura física.",
+      "Substituir espécies nativas por florestas de eucalipto exótico sem controle.",
+      "Utilizar agrotóxicos desfolhantes para acelerar a derrubada mecânica de toras."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Saúde Trabalhista e Prevenção",
+    enunciado: "As Equipas de Saúde da Família e os Centros de Referência em Saúde do Trabalhador (CEREST) atuam no diagnóstico, prevenção e vigilância de lesões relacionadas ao trabalho.",
+    pergunta: "A LER/DORT (Lesões por Esforços Repetitivos / Distúrbios Osteomusculares Relacionados ao Trabalho) é prevenida prioritariamente através de:",
+    alternativas: [
+      "Adequação ergonômica dos postos de trabalho, pausas regulares e alternância de tarefas.",
+      "Aumento da carga horária semanal sem interrupções operacionais.",
+      "Uso diário compulsório de analgésicos fortes antes do início da jornada laboral.",
+      "Substituição de mobiliário ajustável por estruturas rígidas padronizadas de baixo custo."
+    ],
+    correta: 0
+  },
+  {
+    tema: "Acessibilidade no Transporte Público",
+    enunciado: "A Lei de Acessibilidade obriga a adaptação de todos os veículos de transporte coletivo de passageiros para o uso por pessoas com deficiência ou mobilidade reduzida.",
+    pergunta: "Constituem adaptações de acessibilidade obrigatórias em frotas urbanas de ônibus:",
+    alternativas: [
+      "Elevadores ou rampas de acesso, assentos reservados com sinalização, espaço para cadeira de rodas e avisos sonoros e visuais.",
+      "Degraus elevados sem corrimão de apoio para otimizar espaço de circulação.",
+      "Catracas estreitas sem liberação manual em casos de emergência.",
+      "Uso exclusivo de escadas íngremes nas portas de desembarque."
+    ],
+    correta: 0
+  },
+  {
+    tema: "Direito à Informação e Saúde",
+    enunciado: "A rotulagem nutricional frontal em alimentos embalados (com o símbolo de lupa) foi implementada pela ANVISA para alertar o consumidor sobre teores elevados de açúcares adicionados, gorduras saturadas e sódio.",
+    pergunta: "Essa medida de saúde pública visa promover:",
+    alternativas: [
+      "A proibição sumária da venda de doces e salgadinhos no mercado nacional.",
+      "A transparência de informações para que os consumidores façam escolhas alimentares mais conscientes e saudáveis.",
+      "A redução nos impostos estaduais incidentes sobre alimentos ultraprocessados.",
+      "O aumento das exportações de alimentos enlatados sem controle sanitário."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Patrimônio e Memória Negra",
+    enunciado: "O Cais do Valongo, no Rio de Janeiro, foi reconhecido como Patrimônio Mundial pela UNESCO por ser o principal porto de desembarque de africanos escravizados nas Américas.",
+    pergunta: "O reconhecimento desse local como patrimônio visa preservar a memória histórica sob a perspectiva de:",
+    alternativas: [
+      "Celebrar a expansão comercial mercantilista sem reflexão crítica sobre seus impactos cotidianos.",
+      "Um 'sítio de memória sensível' que convida à reflexão sobre as atrocidades da escravidão e à valorização da herança africana na formação nacional.",
+      "Apagar os vestígios da presença negra do centro histórico urbano.",
+      "Promover a privatização comercial de monumentos históricos marítimos."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Cultura Digital e Privacidade",
+    enunciado: "Muitos aplicativos para smartphones coletam dados de localização geográfica, contatos e dados biométricos de usuários para vender informações a redes de publicidade.",
+    pergunta: "De acordo com os princípios de proteção de dados, a coleta de dados pessoais por aplicativos deve condicionar-se a:",
+    alternativas: [
+      "Instalação automática do aplicativo sem exibição dos termos de uso ao proprietário do aparelho.",
+      "Consentimento livre, informado e inequívoco do titular, informando claramente a finalidade legítima do uso dos dados.",
+      "Coleta irrestrita de qualquer informação do telefone sem canal de cancelamento de cadastro.",
+      "Autorização compulsória do provedor de acesso à internet sem consulta ao indivíduo."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Ecoturismo e Desenvolvimento",
+    enunciado: "O ecoturismo ou turismo de natureza busca conciliar o lazer dos visitantes com a conservação ambiental e a geração de renda para populações locais.",
+    pergunta: "Para que uma atividade seja considerada ecoturismo genuíno, ela deve necessariamente:",
+    alternativas: [
+      "Construir grandes resorts de luxo em áreas de preservação permanente sem estudo de impacto.",
+      "Incentivar a conscientização ambiental, respeitar o patrimônio natural/cultural e beneficiar socioeconomicamente a comunidade anfitriã.",
+      "Permitir a caça e a coleta de espécies silvestres ameaçadas de extinção por turistas.",
+      "Proibir a presença de guias locais em trilhas ecológicas estruturadas."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Combate ao Trabalho Infantil na Agricultura",
+    enunciado: "A agricultura familiar ainda registra ocorrências de trabalho infantil perigoso envolvendo o manuseio de ferramentas cortantes e a aplicação de venenos agrícolas.",
+    pergunta: "As ações estratégicas do Programa de Erradicação do Trabalho Infantil (PETI) priorizam:",
+    alternativas: [
+      "A legalização do trabalho infantil no campo a partir dos oito anos de idade.",
+      "A transferência de renda vinculada à frequência escolar, ampliação da jornada em tempo integral e fiscalização das condições de trabalho no campo.",
+      "A suspensão dos repasses de programas sociais a famílias em vulnerabilidade socioeconômica.",
+      "A substituição de escolas rurais por trabalho prático supervisionado em fazendas comerciais."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Combate ao Assédio no Trabalho",
+    enunciado: "O assédio moral no ambiente de trabalho caracteriza-se pela exposição dos trabalhadores a situações humilhantes e constrangedoras de forma repetitiva e prolongada.",
+    pergunta: "Constitui conduta preventiva das organizações para erradicar o assédio moral no trabalho:",
+    alternativas: [
+      "Isolar os funcionários que fazem denúncias formais na ouvidoria da instituição.",
+      "Criar um código de conduta transparente, canais seguros e anônimos de denúncia e promover treinamentos de liderança respeitosa.",
+      "Exigir metas inalcançáveis mediante ameaças públicas de demissão por justa causa.",
+      "Proibir a comunicação verbal informal entre colegas de equipe no ambiente laboral."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Preservação da Caatinga",
+    enunciado: "A Caatinga é um bioma exclusivamente brasileiro caracterizado por vegetação xerófila, com alto grau de endemismo, que sofre com o processo de desertificação.",
+    pergunta: "Uma causa antrópica direta que acelera a desertificação no bioma Caatinga é:",
+    alternativas: [
+      "O desmatamento ilegal para produção de lenha/carvão vegetal e o sobrepastoreio extensivo não manejado.",
+      "A expansão de sistemas agroflorestais diversificados e comunitários.",
+      "A criação de Unidades de Conservação de Proteção Integral estaduais.",
+      "O uso generalizado de irrigação por gotejamento solar eficiente."
+    ],
+    correta: 0
+  },
+  {
+    tema: "Violência Política de Gênero",
+    enunciado: "A Lei nº 14.192/2021 estabeleceu normas para prevenir, reprimir e combater a violência política contra a mulher durante campanhas eleitorais e no exercício de mandatos.",
+    pergunta: "Caracteriza-se como violência política de gênero a conduta de:",
+    alternativas: [
+      "Criticar propostas legislativas ou votos de uma parlamentar com base em argumentos técnicos.",
+      "Assediar, constranger, humilhar ou ameaçar candidatas ou detentoras de mandato com o objetivo de impedir ou dificultar o exercício de seus direitos políticos.",
+      "Organizar debates eleitorais abertos com tempo igualitário de fala entre todos os candidatos.",
+      "Divulgar a prestação de contas oficial de campanhas eleitorais de partidos políticos."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Segurança de Barragens",
+    enunciado: "A Política Nacional de Segurança de Barragens proíbe a construção ou alteração de barragens de mineração pelo método de alçamento a montante (considerado menos seguro).",
+    pergunta: "A proibição do método de alçamento a montante tem como objetivo fundamental:",
+    alternativas: [
+      "Reduzir o pagamento de impostos pelas mineradoras ao poder público.",
+      "Evitar colapsos estruturais e desastres socioambientais catastróficos que ameacem vidas humanas e recursos hídricos.",
+      "Impedir a extração de minério de ferro em todo o território nacional.",
+      "Transferir a responsabilidade pelo monitoramento das barragens para os moradores locais."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Cidadania e Voto Consciente",
+    enunciado: "O voto no Brasil é secreto e obrigatório para os alfabetizados maiores de 18 anos, sendo facultativo para jovens de 16 e 17 anos, idosos acima de 70 anos e analfabetos.",
+    pergunta: "O caráter secreto do voto assegura ao cidadão:",
+    alternativas: [
+      "A obrigatoriedade de divulgar a sua escolha partidária em redes sociais públicas.",
+      "A liberdade de exercer a sua escolha sem coação, ameaça ou compra de votos por parte de terceiros.",
+      "A perda do direito de fiscalizar a apuração das urnas pelos partidos políticos.",
+      "A impossibilidade de alterar o local de votação em caso de mudança de domicílio."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Inclusão no Ensino Superior",
+    enunciado: "O Programa Universidade para Todos (Prouni) concede bolsas de estudo integrais e parciais em cursos de graduação de instituições privadas de ensino superior.",
+    pergunta: "O critério de seleção de estudantes beneficiados pelo Prouni combina o desempenho no ENEM com:",
+    alternativas: [
+      "Avaliação de patrimônio familiar imobiliário em cartórios da capital.",
+      "A comprovação de renda familiar per capita compatível com os limites sociais do programa e ter cursado o ensino médio na rede pública ou com bolsa integral.",
+      "O pagamento de taxa de inscrição proporcional ao valor da mensalidade.",
+      "Indicação política de prefeitos e vereadores da região do estudante."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Transição Energética e Baterias",
+    enunciado: "A expansão de veículos elétricos e o armazenamento de energia eólica e solar aumentaram a demanda global por minerais críticos como lítio, cobalto e níquel.",
+    pergunta: "Um desafio socioambiental associado à mineração desses metais críticos é:",
+    alternativas: [
+      "A contaminação do solo, o alto consumo de água em regiões áridas e os impactos em territórios de populações vulneráveis.",
+      "A diminuição na eficiência dos motores elétricos produzidos no mundo.",
+      "A ausência total de reciclagem de componentes eletrônicos pela indústria.",
+      "O aumento imediato da emissão de dióxido de carbono pelos motores elétricos."
+    ],
+    correta: 0
+  },
+  {
+    tema: "Saneamento e Saúde Infantil",
+    enunciado: "A falta de esgotamento sanitário adequado está diretamente relacionada à mortalidade infantil por diarreia e verminoses, além de prejudicar o desenvolvimento cognitivo de crianças.",
+    pergunta: "Investimentos em saneamento básico em comunidades periféricas geram como retorno imediato:",
+    alternativas: [
+      "O aumento da internação hospitalar por infecções gastrointestinais pediátricas.",
+      "A redução de gastos públicos na medicina curativa e a melhoria dos indicadores de rendimento e frequência escolar.",
+      "A elevação da poluição dos rios e praias urbanas de lazer.",
+      "A paralisação das atividades comerciais locais em bairros residenciais."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Direitos dos Trabalhadores Rurais",
+    enunciado: "O trabalhador rural possui direitos constitucionais equivalentes aos do trabalhador urbano, incluindo piso salarial, décimo terceiro, férias e aposentadoria especial.",
+    pergunta: "A aposentadoria especial do segurado especial (pequeno produtor rural familiar) garante o benefício em idade reduzida devido às:",
+    alternativas: [
+      "Falta de exigência de comprovação de atividade agrícola no campo.",
+      "Condições desgastantes do trabalho no campo e ao compromisso social do Estado com a agricultura familiar de subsistência.",
+      "Normas internacionais que proíbem o trabalho agrícola de pessoas acima dos cinquenta anos.",
+      "Alíquotas de impostos diferenciadas cobradas sobre a exportação de grãos de grande porte."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Combate ao Racismo nas Redes",
+    enunciado: "A Lei nº 14.532/2023 tipificou a injúria racial como crime de racismo, tornando-a inafiançável e imprescritível, aumentando a pena quando cometida nas redes sociais.",
+    pergunta: "A equiparação da injúria racial ao crime de racismo significa que o crime:",
+    alternativas: [
+      "Pode ser fiançado mediante pagamento estipulado por autoridade policial imediatamente.",
+      "Não prescreve com o passar do tempo e não permite o pagamento de fiança para responder em liberdade.",
+      "Aplica-se unicamente quando a vítima for autoridade ocupante de cargo público.",
+      "Pode ser resolvido por meio de retratação verbal sem abertura de processo judicial."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Educação em Tempo Integral",
+    enunciado: "O Plano Nacional de Educação (PNE) estabelece a meta de oferecer educação em tempo integral em, no mínimo, 50% das escolas públicas da educação básica.",
+    pergunta: "A expansão da jornada escolar em tempo integral visa fortalecer a aprendizagem através de:",
+    alternativas: [
+      "Repetição mecânica de aulas teóricas tradicionais sem intervalo para descanso.",
+      "Formação pedagógica diversificada, atividades culturais, esportivas, reforço escolar e nutrição adequada para o desenvolvimento integral.",
+      "Redução da oferta de merenda escolar durante o período vespertino.",
+      "Eliminação do ensino de disciplinas de humanidades para focar apenas em testes de matemática."
+    ],
+    correta: 1
+  },
+  {
+    tema: "Governança Socioambiental (ESG)",
+    enunciado: "A sigla ESG (Environmental, Social and Governance) refere-se às práticas ambientais, sociais e de governança que orientam investimentos e a gestão corporativa moderna.",
+    pergunta: "O pilar 'Social' dentro da abordagem ESG avalia o compromisso da empresa com:",
+    alternativas: [
+      "A maximização do pagamento de dividendos a acionistas minoritários sem auditoria.",
+      "A diversidade da equipe, os direitos dos trabalhadores, a segurança do trabalho e as relações comunitárias transparentes.",
+      "O uso exclusivo de sistemas digitais fechados de gerenciamento de dados corporativos.",
+      "A aquisição de terrenos comerciais sem licença de órgãos ambientais."
     ],
     correta: 1
   }

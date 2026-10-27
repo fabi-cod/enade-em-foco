@@ -341,7 +341,7 @@ html, body {
 .marcador.certa  { background: #15803d; }
 .marcador.errada { background: #dc2626; }
 
-/* ---------- PÓDIO ESTILIZADO ---------- */
+/* ---------- PÓDIO ---------- */
 .podio-container {
   background: #ffffff;
   border-radius: 16px;
