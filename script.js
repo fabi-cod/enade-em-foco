@@ -54,13 +54,41 @@ let conexaoAtiva = false;
 let fechando = false;
 
 // Função utilitária para embaralhar array (Fisher-Yates) e pegar 10 aleatórias
-function selecionarQuestoesAleatorias() {
-  const copia = [...BANCO_QUESTOES];
+
+function embaralharArray(array) {
+  const copia = [...array];
   for (let i = copia.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [copia[i], copia[j]] = [copia[j], copia[i]];
   }
-  return copia.slice(0, QUESTOES_POR_RODADA);
+  return copia;
+}
+
+// Seleciona 10 questões aleatórias e embaralha a ordem das alternativas de cada uma delas
+function selecionarQuestoesAleatorias() {
+  const copiaBanco = embaralharArray(BANCO_QUESTOES);
+  const escolhidas = copiaBanco.slice(0, QUESTOES_POR_RODADA);
+
+  // Embaralha as alternativas de cada questão para que a resposta correta fique aleatória (A, B, C ou D)
+  return escolhidas.map(q => {
+    const alternativasComIndice = q.alternativas.map((texto, idx) => ({
+      texto,
+      corretaOriginal: idx === q.correta
+    }));
+
+    const alternativasEmbaralhadas = embaralharArray(alternativasComIndice);
+    
+    // Descobre qual é o novo índice da alternativa correta após o embaralhamento
+    const novoIndiceCorreta = alternativasEmbaralhadas.findIndex(alt => alt.corretaOriginal);
+
+    return {
+      tema: q.tema,
+      enunciado: q.enunciado,
+      pergunta: q.pergunta,
+      alternativas: alternativasEmbaralhadas.map(alt => alt.texto),
+      correta: novoIndiceCorreta
+    };
+  });
 }
 
 
